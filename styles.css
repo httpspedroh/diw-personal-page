@@ -2,55 +2,107 @@
 
 .header {
     padding: 15px;
-    background-color: gray;
+    background-color: #585858;
 }
 
-.menu_buttons a {
+.header .menu_buttons a {
     color: white;
     text-align: center;
 }
 
-.menu_buttons li {
+.header .menu_buttons li {
     padding-inline-end: 7px;
 }
 
-.menu_buttons a:hover {
+.header .menu_buttons a:hover {
     background-color: rgb(235, 44, 235);
     color: white;
 }
 
-.menu_buttons a:visited {
+.header .menu_buttons a:visited {
     color: white;
 }
 
-.menu_buttons .active {
+.header .menu_buttons .active {
     background-color: violet !important;
 }
 
 @media (max-width: 576px) {
-    .menu_search {
+    .header .menu_search {
         padding-top: 15px;
     }
 }
 
 @media (max-width: 828px) {
-    .menu_buttons li {
+    .header .menu_buttons li {
         padding: 7px;
     }
-    .menu_search {
+    .header .menu_search {
         text-align: center;
     }
 }
 
 
-/* ----------------------------------- Main ---------------------------------- */
+/* ----------------------------------- Main - Perfil ---------------------------------- */
 
 .main {
-    background-color: tomato;
+    /* background-color: #808080; */
 }
 
-.main img {
-    width: 50%;
+.main .perfil_inicio {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.main .perfil_img {
+    width: 80%;
+}
+
+.main h1 {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .perfil_tituloNome,
+    .perfil_descricao,
+    .perfil_redes {
+        text-align: center;
+    }
+    .perfil_descricao {
+        text-align: justify;
+    }
+    .perfil_img {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .perfil_img {
+        width: 80% !important;
+    }
+}
+
+.main .perfil_tituloNome {
+    padding-top: 35px;
+}
+
+.main .perfil_descricao {
+    padding-top: 10px;
+}
+
+.main .perfil_redes {
+    padding-top: 40px;
+}
+
+.main .perfil_icones a {
+    font-size: 40px;
+    color: black;
+}
+
+.main .perfil_icones i {
+    padding-inline-end: 7px;
 }
 
 
