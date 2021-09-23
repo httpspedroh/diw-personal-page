@@ -1,3 +1,5 @@
+/* ---------------------------------- Header --------------------------------- */
+
 .header {
     padding: 15px;
     background-color: gray;
@@ -14,6 +16,10 @@
 
 .menu_buttons a:hover {
     background-color: rgb(235, 44, 235);
+    color: white;
+}
+
+.menu_buttons a:visited {
     color: white;
 }
 
@@ -35,6 +41,20 @@
         text-align: center;
     }
 }
+
+
+/* ----------------------------------- Main ---------------------------------- */
+
+.main {
+    background-color: tomato;
+}
+
+.main img {
+    width: 50%;
+}
+
+
+/* ---------------------------------- Geral ---------------------------------- */
 
 .pink {
     background-color: violet;
