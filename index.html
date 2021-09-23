@@ -40,7 +40,7 @@
                 <div class="align-items-center">
                     <div class="input-group rounded menu_search">
                         <input type="search" class="form-control rounded" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="search-addon" />
-                        <span class="input-group-text border-0 pink" id="search-addon"><i class="fas fa-search white"></i></span>
+                        <span class="input-group-text border-0 carbon" id="search-addon"><i class="fas fa-search white"></i></span>
                     </div>
                 </div>
             </div>
@@ -51,27 +51,63 @@
     <!------------------------------------------------------------------------------------------------------------->
 
     <main class="main container">
-        <div class="perfil_inicio row align-items-center">
+        <section class="perfil_inicio row align-items-center">
             <div class="col-lg-6 col-xl-4 text-center">
-                <img class="perfil_img rounded-circle" src="assets/images/me.jpg">
+                <img class="perfil_img rounded-circle" src="assets/images/me.jpg" alt="Pedro Lopes">
             </div>
 
             <div class="col-lg-6 col-xl-8">
-                <h1 class="perfil_tituloNome">Pedro Lopes</h1>
+                <h1 class="perfil_tituloNome text-center text-md-start">Pedro Lopes</h1>
                 <p class="perfil_descricao"><b>Objetivos:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta incidunt optio nostrum perferendis qui repellendus eius libero cumque doloremque reiciendis sunt officiis, quibusdam tenetur, sed accusantium? Atque deserunt
                     temporibuse?
                 </p>
 
-                <div class="perfil_redes">
+                <div class="perfil_redes text-center text-md-start">
                     <h1 class="perfil_tituloRedes">Redes sociais</h1>
                     <div class="perfil_icones">
-                        <a href="https://www.facebook.com/PedroH29"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.github.com/httpspedroh"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/https_pedroh"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pedro-lopes-4b247b21b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.github.com/httpspedroh" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/https_pedroh" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!----------------------------------------------------------------------->
+
+        <section class="projetos_geral">
+            <div class="row">
+                <h1 class="projetos_titulo col-4 col-md-8">Projetos</h1>
+                <div class="col-8 col-md-4">
+                    <select class="form-select">
+                        <option value="1">Categoria: Jogos</option>
+                        <option value="2">Categoria: Websites</option>
+                        <option value="3">Categoria: Artes gráficas</option>
+                        <option value="3">Categoria: Podcasts</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="projetos_imgs row">
+                <div class="col-12 col-sm-6 col-xl-3 text-center"><img src="assets/images/painel.png" alt="Painel de controle" class="rounded">
+                    <span class="projetos_imgsDescricao">Painel de controle</span>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 text-center"><img src="assets/images/loja.png" alt="Loja virtual" class="rounded">
+                    <span class="projetos_imgsDescricao">Loja virtual</span>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 text-center"><img src="assets/images/redesocial.png" alt="Rede social" class="rounded">
+                    <span class="projetos_imgsDescricao">Rede social</span>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3 text-center"><img src="assets/images/uber.png" alt="Aplicativo de corridas" class="rounded">
+                    <span class="projetos_imgsDescricao">Aplicativo de transporte</span>
+                </div>
+            </div>
+
+
+            <div class="projetos_carregar d-flex flex-row-reverse">
+                <button class="btn btn-dark"><i class="fas fa-plus"></i> Carregar mais projetos</button>
+            </div>
+        </section>
     </main>
 
     <!------------------------------------------------------------------------------------------------------------->
