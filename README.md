@@ -1,5 +1,7 @@
-# diw-blog
+# Início
 
-## Início
 Repositório do trabalho individual de Desenvolvimento de Interfaces Web
-*Turma:* PUC Minas CC 2021/2
+
+## Turma
+
+PUC Minas - Ciência da Computação - 2021/2
