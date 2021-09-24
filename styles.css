@@ -43,11 +43,7 @@
 }
 
 
-/* ----------------------------------- Main - Perfil ---------------------------------- */
-
-.main {
-    /* background-color: #808080; */
-}
+/* ----------------------------------- Perfil ---------------------------------- */
 
 .perfil_inicio {
     padding-top: 30px;
@@ -107,15 +103,10 @@
 }
 
 
-/* ----------------------------------- Main - Projetos ---------------------------------- */
+/* ----------------------------------- Projetos ---------------------------------- */
 
 .projetos_geral {
     margin-top: 50px;
-}
-
-.projetos_titulo {
-    font-weight: bold;
-    font-size: 30px;
 }
 
 .projetos_imgs img {
@@ -127,24 +118,50 @@
     font-weight: bold;
 }
 
-.projetos_carregar {
+
+/* ----------------------------------- Experiência ---------------------------------- */
+
+.experiencias_geral {
+    margin-top: 50px;
+}
+
+.experiencias_geral img {
+    max-width: 50%;
+}
+
+.experiencias_rows {
+    padding-top: 40px;
+}
+
+.experiencias_titulo {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ---------------------------------- Geral ---------------------------------- */
+
+.geral_titulo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.geral_carregar {
     padding-top: 45px;
     margin-left: 0px;
 }
 
-.projetos_carregar button {
+.geral_carregar button {
     background-color: #333333;
     color: white;
     font-weight: bold;
 }
 
-.projetos_carregar i {
+.geral_carregar i {
     padding-right: 8px;
     color: white;
 }
-
-
-/* ---------------------------------- Geral ---------------------------------- */
 
 .carbon {
     background-color: #333333;
