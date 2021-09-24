@@ -68,6 +68,12 @@ body {
     text-align: justify;
 }
 
+@media (max-width: 992px) {
+    .perfil_nameDivisor {
+        display: none;
+    }
+}
+
 .perfil_geral h1 {
     font-size: 25px;
     font-weight: bold;
@@ -145,7 +151,7 @@ body {
 .experiencias_titulo {
     padding-top: 10px;
     font-size: 18px;
-    font-weight: bold;
+    font-style: ;
 }
 
 
@@ -239,6 +245,14 @@ body {
 
 
 /* ---------------------------------- Geral ---------------------------------- */
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
 
 .recomendacoes_sub,
 .repositorios_sub {
