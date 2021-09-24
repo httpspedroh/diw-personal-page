@@ -72,7 +72,7 @@ body {
     text-align: justify;
 }
 
-.perfil_inicio h1 {
+.perfil_geral h1 {
     font-size: 25px;
     font-weight: bold;
 }
@@ -182,16 +182,34 @@ body {
 }
 
 
+/* ---------------------------------- Recomendações ---------------------------------- */
+
+.recomendacoes_descricao {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.recomendacoes_sub {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recomendacoes_video {
+    padding-top: 10px;
+}
+
+
 /* ---------------------------------- Geral ---------------------------------- */
 
 .projetos_imgs,
 .experiencias_rows,
-.repositorios_row {
+.repositorios_row,
+.recomendacoes_row {
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.perfil_inicio,
+.perfil_geral,
 .projetos_geral,
 .experiencias_geral,
 .repositorios_geral,
