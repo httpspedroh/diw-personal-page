@@ -1,3 +1,8 @@
+body {
+    background-color: #e1e2e3;
+}
+
+
 /* ---------------------------------- Header --------------------------------- */
 
 .header {
@@ -55,11 +60,6 @@
 
 /* ----------------------------------- Perfil ---------------------------------- */
 
-.perfil_inicio {
-    padding-top: 40px;
-    padding-bottom: 15px;
-}
-
 .perfil_img {
     width: 80%;
 }
@@ -113,13 +113,8 @@
 
 /* ----------------------------------- Projetos ---------------------------------- */
 
-.projetos_geral {
-    margin-top: 50px;
-}
-
 .projetos_imgs img {
     max-width: 100%;
-    padding-top: 40px;
 }
 
 .projetos_imgsDescricao {
@@ -129,16 +124,12 @@
 
 /* ----------------------------------- Experiência ---------------------------------- */
 
-.experiencias_geral {
-    margin-top: 50px;
-}
-
 .experiencias_geral img {
     max-width: 50%;
 }
 
-.experiencias_rows {
-    padding-top: 40px;
+.experiencias_rows p {
+    text-align: justify;
 }
 
 .experiencias_titulo {
@@ -148,7 +139,68 @@
 }
 
 
+/* ----------------------------------- Repositórios ---------------------------------- */
+
+.repositorios_geral {
+    background-color: #888;
+}
+
+.repositorios_icones {
+    font-size: 50px;
+}
+
+.repositorios_titulo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.repositorios_sub {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.repositorios_sub i {
+    padding-right: 16px;
+}
+
+.repositorios_abrir {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0px 10px;
+}
+
+.repositorios_abrir:hover {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.repositorios_abrir i {
+    padding-right: 8px;
+}
+
+
 /* ---------------------------------- Geral ---------------------------------- */
+
+.projetos_imgs,
+.experiencias_rows,
+.repositorios_row {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.perfil_inicio,
+.projetos_geral,
+.experiencias_geral,
+.repositorios_geral,
+.recomendacoes_geral {
+    margin: 25px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
 
 .geral_titulo {
     font-weight: bold;
@@ -156,24 +208,23 @@
 }
 
 .geral_carregar {
-    padding-top: 45px;
+    padding-top: 6px;
     margin-left: 0px;
-    color: white;
 }
 
-.geral_carregar button {
+.geral_carregar {
     background-color: #333333;
     color: white;
     font-weight: bold;
 }
 
-.geral_carregar button:hover {
-    color: white;
+.geral_carregar:hover {
+    background-color: white;
+    color: black;
 }
 
 .geral_carregar i {
     padding-right: 8px;
-    color: white;
 }
 
 .carbon {

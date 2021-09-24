@@ -50,35 +50,37 @@
 
     <!------------------------------------------------------------------------------------------------------------->
 
-    <main class="main container">
-        <section class="perfil_inicio row align-items-center">
-            <div class="col-lg-6 col-xl-4 text-center">
-                <img class="perfil_img rounded-circle" src="assets/images/me.jpg" alt="Pedro Lopes">
-            </div>
+    <main class="main container-fluid container-xl">
+        <div class="perfil_inicio">
+            <section class="row align-items-center">
+                <div class="col-lg-6 col-xl-4 text-center">
+                    <img class="perfil_img rounded-circle" src="assets/images/me.jpg" alt="Pedro Lopes">
+                </div>
 
-            <div class="col-lg-6 col-xl-8">
-                <h1 class="perfil_tituloNome text-center text-md-start">Pedro Lopes</h1>
-                <p class="perfil_descricao"><b>Objetivos:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta incidunt optio nostrum perferendis qui repellendus eius libero cumque doloremque reiciendis sunt officiis, quibusdam tenetur, sed accusantium? Atque deserunt
-                    temporibuse?
-                </p>
+                <div class="col-lg-6 col-xl-8">
+                    <h1 class="perfil_tituloNome text-center text-lg-start">Pedro Lopes</h1>
+                    <p class="perfil_descricao"><b>Objetivos:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta incidunt optio nostrum perferendis qui repellendus eius libero cumque doloremque reiciendis sunt officiis, quibusdam tenetur, sed accusantium? Atque
+                        deserunt temporibuse?
+                    </p>
 
-                <div class="perfil_redes text-center text-md-start">
-                    <h1 class="perfil_tituloRedes">Redes sociais</h1>
-                    <div class="perfil_icones">
-                        <a href="https://www.linkedin.com/in/pedro-lopes-4b247b21b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.github.com/httpspedroh" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/https_pedroh" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <div class="perfil_redes text-center text-lg-start">
+                        <h1 class="perfil_tituloRedes">Redes sociais</h1>
+                        <div class="perfil_icones">
+                            <a href="https://www.linkedin.com/in/pedro-lopes-4b247b21b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.github.com/httpspedroh" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/https_pedroh" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <!----------------------------------------------------------------------->
 
         <section class="projetos_geral">
             <div class="row">
-                <h1 class="geral_titulo col-5 col-md-8">Projetos</h1>
-                <div class="col-7 col-md-4">
+                <h1 class="geral_titulo col-6 col-md-8">Projetos</h1>
+                <div class="col-6 col-md-4">
                     <select class="form-select">
                         <option value="1">Categoria: Jogos</option>
                         <option value="2">Categoria: Websites</option>
@@ -103,17 +105,15 @@
                 </div>
             </div>
 
-
-            <div class="geral_carregar d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                <button class="btn"><i class="fas fa-plus"></i>Carregar mais projetos</button>
+            <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                <button class="geral_carregar btn"><i class="fas fa-plus"></i>Carregar mais projetos</button>
             </div>
         </section>
 
         <!----------------------------------------------------------------------->
 
         <section class="experiencias_geral">
-            <h1 class="geral_titulo col-4 col-md-8">Experiências</h1>
-
+            <h1 class="geral_titulo">Experiências</h1>
 
             <div class="experiencias_rows">
                 <div class="row align-items-center">
@@ -145,10 +145,99 @@
             </div>
 
 
-            <div class="geral_carregar d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                <button class="btn"><i class="fas fa-plus"></i>Carregar mais experiências</button>
+            <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                <button class="geral_carregar btn"><i class="fas fa-plus"></i>Carregar mais experiências</button>
             </div>
         </section>
+
+        <!----------------------------------------------------------------------->
+
+        <section class="repositorios_geral">
+            <h1 class="geral_titulo">Repositórios</h1>
+
+            <div class="repositorios_row row">
+                <span class="col-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header repositorios_sub"><i class="far fa-folder"></i>Repositório 1</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia assumenda, eligendi explicabo beatae consequuntur odio molestias nostrum, natus sint ad dicta sequi corporis, in dolorum perspiciatis dolor corrupti esse rem? Tenetur dolorem in quod doloribus nemo impedit quibusdam reprehenderit nostrum.</p>
+                            <button class="repositorios_abrir btn"><i class="fab fa-github-alt"></i>Visualizar</button>
+                            <p class="card-text"><small class="text-muted">Última atualização: 24/09/2021</small></p>
+                        </div>
+                    </div>
+                </span>
+
+                <span class="col-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header repositorios_sub"><i class="far fa-folder"></i>Repositório 2</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia assumenda, eligendi explicabo beatae consequuntur odio molestias nostrum, natus sint ad dicta sequi corporis, in dolorum perspiciatis dolor corrupti esse rem? Tenetur dolorem in quod doloribus nemo impedit quibusdam reprehenderit nostrum.</p>
+                            <button class="repositorios_abrir btn"><i class="fab fa-github-alt"></i>Visualizar</button>
+                            <p class="card-text"><small class="text-muted">Última atualização: 24/09/2021</small></p>
+                        </div>
+                    </div>
+                </span>
+
+                <span class="col-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header repositorios_sub"><i class="far fa-folder"></i>Repositório 3</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia assumenda, eligendi explicabo beatae consequuntur odio molestias nostrum, natus sint ad dicta sequi corporis, in dolorum perspiciatis dolor corrupti esse rem? Tenetur dolorem in quod doloribus nemo impedit quibusdam reprehenderit nostrum.</p>
+                            <button class="repositorios_abrir btn"><i class="fab fa-github-alt"></i>Visualizar</button>
+                            <p class="card-text"><small class="text-muted">Última atualização: 24/09/2021</small></p>
+                        </div>
+                    </div>
+                </span>
+
+                <span class="col-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header repositorios_sub"><i class="far fa-folder"></i>Repositório 4</div>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia assumenda, eligendi explicabo beatae consequuntur odio molestias nostrum, natus sint ad dicta sequi corporis, in dolorum perspiciatis dolor corrupti esse rem? Tenetur dolorem in quod doloribus nemo impedit quibusdam reprehenderit nostrum.</p>
+                            <button class="repositorios_abrir btn"><i class="fab fa-github-alt"></i>Visualizar</button>
+                            <p class="card-text"><small class="text-muted">Última atualização: 24/09/2021</small></p>
+                        </div>
+                    </div>
+                </span>
+            </div>
+
+            <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                <button class="geral_carregar btn"><i class="fas fa-plus"></i>Carregar mais repositórios</button>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------------->
+
+        <section class="recomendacoes_geral">
+            <h1 class="geral_titulo">Recomendações</h1>
+
+            <div class="row">
+                <span class="col-4 d-flex justify-content-start">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7h4yWr6P2Cw" allowfullscreen></iframe>
+                    </div>
+                </span>
+
+                <span class="col-4 d-flex justify-content-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7h4yWr6P2Cw" allowfullscreen></iframe>
+                    </div>
+                </span>
+
+                <span class="col-4 d-flex justify-content-end">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7h4yWr6P2Cw" allowfullscreen></iframe>
+                    </div>
+                </span>
+            </div>
+
+            <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                <button class="geral_carregar btn"><i class="fas fa-plus"></i>Carregar mais recomendações</button>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------------->
+
     </main>
 
     <!------------------------------------------------------------------------------------------------------------->
