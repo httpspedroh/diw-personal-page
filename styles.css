@@ -167,6 +167,10 @@
     font-weight: bold;
 }
 
+.geral_carregar button:hover {
+    color: white;
+}
+
 .geral_carregar i {
     padding-right: 8px;
     color: white;
