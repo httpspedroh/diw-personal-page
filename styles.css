@@ -118,28 +118,29 @@
     font-size: 30px;
 }
 
-.projetos_imgs {
-    padding-top: 20px;
-}
-
 .projetos_imgs img {
     max-width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 40px;
 }
 
 .projetos_imgsDescricao {
     font-weight: bold;
-    font-size: 17px;
 }
 
 .projetos_carregar {
-    padding-top: 25px;
+    padding-top: 45px;
     margin-left: 0px;
+}
+
+.projetos_carregar button {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
 }
 
 .projetos_carregar i {
     padding-right: 8px;
+    color: white;
 }
 
 
