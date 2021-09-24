@@ -64,10 +64,6 @@ body {
     width: 80%;
 }
 
-.perfil_tituloNome {
-    padding-top: 10px;
-}
-
 .perfil_descricao {
     text-align: justify;
 }
@@ -89,8 +85,14 @@ body {
     }
 }
 
-.perfil_tituloNome {
+.perfil_texts {
     padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.perfil_texts h1 {
+    font-size: 30px;
 }
 
 .perfil_descricao {
@@ -101,8 +103,12 @@ body {
     padding-top: 40px;
 }
 
+.perfil_redes h1 {
+    font-size: 20px;
+}
+
 .perfil_icones a {
-    font-size: 40px;
+    font-size: 30px;
     color: black;
 }
 
@@ -115,6 +121,10 @@ body {
 
 .projetos_imgs img {
     max-width: 100%;
+}
+
+.projetos_imgs {
+    margin-bottom: 20px;
 }
 
 .projetos_imgsDescricao {
@@ -134,7 +144,7 @@ body {
 
 .experiencias_titulo {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -154,11 +164,6 @@ body {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 10px;
-}
-
-.repositorios_sub {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .repositorios_sub i {
@@ -189,17 +194,57 @@ body {
     text-align: justify;
 }
 
-.recomendacoes_sub {
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .recomendacoes_video {
     padding-top: 10px;
 }
 
 
+/* ---------------------------------- Footer ---------------------------------- */
+
+.footer {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #585858;
+    color: white;
+}
+
+.footer_row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer p {
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer img {
+    max-width: 80%;
+}
+
+@media (max-width: 620px) {
+    .footer img {
+        padding-top: 20px;
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 992px) {
+    .footer img {
+        padding-top: 20px;
+        max-width: 50%;
+    }
+}
+
+
 /* ---------------------------------- Geral ---------------------------------- */
+
+.recomendacoes_sub,
+.repositorios_sub {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .projetos_imgs,
 .experiencias_rows,
@@ -214,7 +259,7 @@ body {
 .experiencias_geral,
 .repositorios_geral,
 .recomendacoes_geral {
-    margin: 25px;
+    margin: 30px 10px 30px 10px;
     padding: 30px;
     border-radius: 20px;
     background-color: white;
@@ -222,7 +267,7 @@ body {
 
 .geral_titulo {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .geral_carregar {
