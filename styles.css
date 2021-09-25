@@ -60,104 +60,106 @@ body {
 
 /* ----------------------------------- Perfil ---------------------------------- */
 
-.perfil_img {
+.profile_img {
     width: 80%;
 }
 
-.perfil_descricao {
+.profile_caption {
     text-align: justify;
 }
 
 @media (max-width: 992px) {
-    .perfil_nameDivisor {
+    .profile_nameDivisor {
         display: none;
     }
 }
 
-.perfil_geral h1 {
+.profile_general h1 {
     font-size: 25px;
     font-weight: bold;
 }
 
 @media (max-width: 991px) {
-    .perfil_img {
+    .profile_img {
         width: 50% !important;
     }
 }
 
 @media (max-width: 576px) {
-    .perfil_img {
+    .profile_img {
         width: 80% !important;
     }
 }
 
-.perfil_texts {
+.profile_texts {
     padding-top: 35px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.perfil_texts h1 {
+.profile_texts h1 {
     font-size: 30px;
 }
 
-.perfil_descricao {
+.profile_caption {
     padding-top: 10px;
 }
 
-.perfil_redes {
+.profile_social {
     padding-top: 40px;
 }
 
-.perfil_redes h1 {
+.profile_social h1 {
     font-size: 20px;
 }
 
-.perfil_icones a {
+.profile_icons a {
     font-size: 30px;
     color: black;
 }
 
-.perfil_icones i {
+.profile_icons i {
     padding-inline-end: 7px;
 }
 
 
 /* ----------------------------------- Projetos ---------------------------------- */
 
-.projetos_imgs img {
+.projects_imgs img {
     max-width: 100%;
 }
 
-.projetos_imgs {
-    margin-bottom: 20px;
+.projects_imgs {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
-.projetos_imgsDescricao {
+.projects_imgsCaption {
     font-weight: bold;
+    display: flex;
+    border-bottom: 50px;
 }
 
 
 /* ----------------------------------- Experiência ---------------------------------- */
 
-.experiencias_geral img {
+.experiences_general img {
     max-width: 50%;
 }
 
-.experiencias_rows p {
+.experiences_rows p {
     text-align: justify;
 }
 
-.experiencias_titulo {
+.experiences_title {
     padding-top: 10px;
     font-size: 18px;
-    font-style: ;
 }
 
 
 /* ----------------------------------- Repositórios ---------------------------------- */
 
-.repositorios_geral {
+.repositories_general {
     background-color: #888;
 }
 
@@ -172,23 +174,23 @@ body {
     padding-bottom: 10px;
 }
 
-.repositorios_sub i {
+.repositories_title i {
     padding-right: 16px;
 }
 
-.repositorios_abrir {
+.repositories_open {
     background-color: #333333;
     color: white;
     font-weight: bold;
     margin: 20px 0px 10px;
 }
 
-.repositorios_abrir:hover {
+.repositories_open:hover {
     background-color: #f8f9fa;
     color: black;
 }
 
-.repositorios_abrir i {
+.repositories_open i {
     padding-right: 8px;
 }
 
@@ -200,7 +202,7 @@ body {
     text-align: justify;
 }
 
-.recomendacoes_video {
+.recommendations_video {
     padding-top: 10px;
 }
 
@@ -254,53 +256,52 @@ a:active {
     text-decoration: none;
 }
 
-.recomendacoes_sub,
-.repositorios_sub {
+.recommendations_caption,
+.repositories_title {
     font-size: 18px;
     font-weight: bold;
 }
 
-.projetos_imgs,
-.experiencias_rows,
-.repositorios_row,
-.recomendacoes_row {
+.experiences_rows,
+.repositories_row,
+.recommendations_row {
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.perfil_geral,
+.profile_general,
 .projetos_geral,
-.experiencias_geral,
-.repositorios_geral,
-.recomendacoes_geral {
+.experiences_general,
+.repositories_general,
+.recommendations_general {
     margin: 30px 10px 30px 10px;
     padding: 30px;
     border-radius: 20px;
     background-color: white;
 }
 
-.geral_titulo {
+.general_title {
     font-weight: bold;
     font-size: 25px;
 }
 
-.geral_carregar {
+.general_loadMore {
     padding-top: 6px;
     margin-left: 0px;
 }
 
-.geral_carregar {
+.general_loadMore {
     background-color: #333333;
     color: white;
     font-weight: bold;
 }
 
-.geral_carregar:hover {
+.general_loadMore:hover {
     background-color: white;
     color: black;
 }
 
-.geral_carregar i {
+.general_loadMore i {
     padding-right: 8px;
 }
 
